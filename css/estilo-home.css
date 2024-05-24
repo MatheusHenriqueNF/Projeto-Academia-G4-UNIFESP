@@ -1,0 +1,46 @@
+main{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    display: flex; /* emparelhar itens*/
+    align-items: center;
+    justify-content: space-between; /* colocar espaços entres os itens*/
+    padding: 28px 8%;
+}
+
+#home{
+    width: 100%;
+    height: 670px;
+}
+
+#cta{
+    width: 100%;
+    display: flex; /* emparelhar itens*/
+    align-items: center;
+}
+
+#cta h1{
+    font-size: 75px;
+    text-align: center;
+    color: #140E0A;
+    font-weight: 900;
+}
+
+h1 span{
+    color: #C91E2D;
+}
+
+#banner{
+    width: 100%;
+    display: flex; /* emparelhar itens*/
+    align-items: center;
+}
+
+#banner img{
+    width: 750px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}

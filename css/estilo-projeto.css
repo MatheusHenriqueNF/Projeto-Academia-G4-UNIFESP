@@ -15,15 +15,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #C91E2D;
+    background-color: #FEFAF1;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
-    color:#FEFAF1;
+    color:#C91E2D;
 }
 
 .btn-default:hover{
     cursor: pointer;
-    box-shadow: 0px 0px 0.5px 1px rgba(255, 0, 0, 0.5);
+    box-shadow: 0px 0px 0.5px 1px rgba(0, 0, 0, 0.5);
+    background-color: #e71728;
+    color: #FEFAF1;
 }
 

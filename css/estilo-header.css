@@ -1,6 +1,7 @@
 header{
     width: 100%;
     padding: 28px 8%;
+    background-color: #C91E2D;
 }
 
 #navbar{
@@ -12,7 +13,7 @@ header{
 
 #nav_logo{
     font-size: 30px;
-    color: #C91E2D;
+    color: #FEFAF1;
 }
 
 #nav_list{
@@ -23,15 +24,16 @@ header{
 
 .nav-item a{
     text-decoration: none;
-    color: #140E0A;
+    color: #FEFAF1;
     font-weight: 600;
 }
 
 .nav-item a:hover{
-    color:#C91E2D;
-    border-bottom: 3px solid #C91E2D;
+    border-bottom: 3px solid #FEFAF1;
     border-radius: 15px;
 }
+
+
 
 #btn_mobile{
     display: none;
