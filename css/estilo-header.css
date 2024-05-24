@@ -2,3 +2,58 @@ header{
     width: 100%;
     padding: 28px 8%;
 }
+
+#navbar{
+    width: 100%;
+    display: flex; /* emparelhar itens*/
+    align-items: center;
+    justify-content: space-between; /* colocar espaços entres os itens*/
+}
+
+#nav_logo{
+    font-size: 30px;
+    color: #C91E2D;
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #140E0A;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+    color:#C91E2D;
+    border-bottom: 3px solid #C91E2D;
+    border-radius: 15px;
+}
+
+#btn_mobile{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    
+    #nav_list,
+    #navbar .btn-default{
+        display: none;
+    }
+
+    #btn_mobile{
+        display: block;
+        background-color: transparent;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+}

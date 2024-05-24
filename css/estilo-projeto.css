@@ -10,3 +10,20 @@ body{
     background-color: #FEFAF1;
 }
 
+.btn-default{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C91E2D;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    color:#FEFAF1;
+}
+
+.btn-default:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 0.5px 1px rgba(255, 0, 0, 0.5);
+}
+
