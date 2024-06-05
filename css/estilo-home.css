@@ -8,6 +8,7 @@ section{
     align-items: center;
     justify-content: space-between; /* colocar espaços entres os itens*/
     padding: 28px 8%;
+    background-image: url('../img/fundo1.png');
 }
 
 #home{
@@ -24,23 +25,26 @@ section{
 #cta h1{
     font-size: 75px;
     text-align: center;
-    color: #140E0A;
+    color: #FEFAF1;
     font-weight: 900;
 }
 
 h1 span{
-    color: #C91E2D;
+    color: #ffffff;
 }
 
 #banner{
     width: 100%;
+    height: 100%;
     display: flex; /* emparelhar itens*/
+    justify-content: end;
     align-items: center;
 }
 
 #banner img{
-    width: 750px;
-    height: 700px;
+    width: 400px;
+    height: 670px;
     display: flex;
     align-items: center;
+    padding-top: 90px;
 }
